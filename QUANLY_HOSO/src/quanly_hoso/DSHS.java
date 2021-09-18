@@ -64,6 +64,17 @@ public class DSHS {
             }
         }
     }
+    //--code by Nguyen Ngoc Phuc --//
+    public int ThongKeHS(){
+        int demhs=0;
+        for(HOSO hs : ds){
+            if(hs instanceof HOCSINH){
+                demhs++;
+            }
+        }
+        return demhs;
+    }
+    
        
      public int ThongKeGV(){
         int demgv=0;
