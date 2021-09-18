@@ -44,7 +44,6 @@ public class DSHS {
             }
         }
     }
-    // ----------------------
    
    // code by nguyễn đại long 
     public HOSO Tim(String maHS) {
