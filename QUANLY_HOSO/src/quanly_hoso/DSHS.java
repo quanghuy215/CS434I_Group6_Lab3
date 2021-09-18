@@ -56,7 +56,16 @@ public class DSHS {
         return null;
     }
     //-----------------------------------------------
-   
+    
+    //--Code by Dinh Van Luong--//
+    public void CapNhap(HOSO hs) {
+        for (int i = 0; i < ds.size(); i++) {
+            if (hs.getMaHoSo().trim().equalsIgnoreCase(ds.get(i).maHoSo)) {
+                ds.set(i, hs);
+            }
+        }
+    }
+       
      public int ThongKeGV(){
         int demgv=0;
         for(HOSO hs : ds){
