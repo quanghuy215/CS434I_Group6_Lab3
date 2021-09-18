@@ -34,6 +34,17 @@ public class DSHS {
     public void Them(HOSO hs) {
         ds.add(hs);
     }
+    
+    // code by Lưu Vĩnh Toàn
+    public void Xoa(String maHS) {
+        for (int i = 0; i < ds.size(); i++) {
+            if (ds.get(i).maHoSo.equalsIgnoreCase(maHS)) {
+                ds.remove(i);
+                break;
+            }
+        }
+    }
+    // -------------------------
    
    // code by nguyễn đại long 
     public HOSO Tim(String maHS) {
